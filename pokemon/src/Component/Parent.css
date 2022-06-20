@@ -1,0 +1,44 @@
+.left-side{
+
+    display:grid;
+    width: 55vw;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:1.5rem;
+    margin-top: 10rem;
+    margin-left: 1rem;
+}
+.buttons{
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 2rem;
+}
+.buttons>button{
+    width: 10rem;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.4rem;
+    border-radius: 1.2rem;
+    background-color: #c9bca5;
+    color:#ff2d00;
+
+}
+.buttons>button:hover{
+    cursor: pointer;
+    background-color: rgb(87 145 110);
+    color: rgb(233, 212, 197);
+}
+.container{
+    display: flex;
+    gap: 8rem;
+    
+}
+.right-side{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    /* border: 2px solid red; */
+    align-items: center;
+
+}
